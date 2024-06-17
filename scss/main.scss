@@ -1,0 +1,55 @@
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+$primary: #0d6efd;
+$gray-medium: #666;
+$gray-light: #999;
+
+// Custom CSS
+.header {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+    &__msg {
+        font-size: 16px;
+    }
+
+    &__name {
+        font-size: 34px;
+        color: $primary;
+    }
+}
+
+.course {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+    &__title {
+        font-size: 28px;
+    }
+
+    &__userinfo {
+        margin-bottom: 1rem;
+
+        &__user {
+            color: $primary;
+        }
+
+        &__date {
+            color: $gray-light;
+        }
+    }
+
+    &__desc {
+        font-size: 14px;
+        color: $gray-medium;
+    }
+
+    &__img {
+        margin-top: 2rem;
+        max-width: 800px;
+
+        img {
+            width: 100%;
+        }
+    }
+}
